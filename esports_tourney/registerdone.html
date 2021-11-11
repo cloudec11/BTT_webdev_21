@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>League of Legends Rookie Tournament</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Style the header */
+header {
+     background-color: rgb(9, 4, 36);
+    padding: 30px;
+     text-align: center;
+    font-size: 35px;
+     color: white;
+}
+
+
+
+article {
+    font-size: 20px;
+    float: left;
+     padding: 20px;
+     width: 70%;
+     background-color: #25274e;
+}
+
+art {
+  
+    font-size: 20px;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background-color: #31b4d4;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgba(0, 51, 145, 0.753);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body bgcolor="#25274e">
+
+<header>
+  <h2><img style="position:relative; top:25px; left:-50px " src="lol_img.png" width=13% height=0% >League of Legends Rookie Tournament</h2>
+</header>
+
+<section>
+  <nav class="navbar">
+    <div class="brand-name"></div>
+    <div class="navbar-link">
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="info.html">Information</a></li>
+        <li><a href="register.html">Register Here!</a></li>
+        <li><a href="transport.html">Location</a></li>
+        <li><a href="contact.html">Contact Us!</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <article>
+    <h2 style="color: white;">Thank you for registering!</h2>
+  </article>
+
+  <art>
+    <h1 style="color: white;">Enter your info here</h1>
+    <form>
+      <div>
+        <label for="name">Enter Your Name</label>
+        <br><input type="text" name="name" id="name" required>
+    </div>
+    <div>
+      <label for="ign">In-game Name</label>
+      <br><input type="text" name="ign" id="ign" required>
+  </div>
+    <div>
+      <label for="email">Email</label>
+      <br><input type="email" name="email" id="email" required>
+    </div>
+    <div>
+      <label for="age">Age</label>
+      <br><input type="number" name="age" id="age" min="1" max="200" step="5">
+    </div>
+  
+    <div>
+      Preferred Role(s)
+      <div>
+        <label for="Top">Top</label>
+        <input type="checkbox" name="Top" id="Top">
+      </div>
+      <div>
+        <label for="Jungle">Jungle</label>
+        <input type="checkbox" name="Jungle" id="Jungle">
+      </div>
+      <div>
+        <label for="Mid">Mid</label>
+        <input type="checkbox" name="Mid" id="Mid">
+      </div>
+      <div>
+        <label for="Top">Bot</label>
+        <input type="checkbox" name="Bot" id="Bot">
+      </div>
+      <div>
+        <label for="Support">Support</label>
+        <input type="checkbox" name="Support" id="Support">
+      </div>
+    </div>
+  
+    <div>
+      <label for="rank">What is your rank?</label>
+      <select name="rank" id="rank">
+        <option label="Iron"value="Iron">Iron</option>
+        <option label="Bronze" value="Bronze">Bronze</option>
+        <option label="Silver" value="Silver">Silver</option>
+        <option label="Gold" value="Gold">Gold</option>
+        <option label="Platinum" value="Platinum">Platinum</option>
+        <option label="Diamond" value="Diamond">Diamond</option>
+        <option label="Master" value="Master">Master</option>
+        <option label="GrandMaster" value="Diamond">Grandmaster</option>
+        <option label="Challenger" value="Diamond">Challenger</option>
+      </select>
+    </div>
+  
+    <button type="reset">Reset</button>
+  </form>
+  <p><a href="registerdone.html" class="swag-button">Submit</a></p>
+  </art>
+</section>
+
+<footer>
+    <p>Copyright E.Chen 2021</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+  }
+a {
+  text-decoration: inherit;
+}
+body{
+  margin:0;
+  padding:0;
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(6, 46, 83);
+  color: white;
+}
+.brand-name{
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+.navbar-link ul{
+  margin:0;
+  padding:0;
+  display:flex;
+}
+.navbar-link li{
+  list-style: none;
+}
+.navbar-link li a{
+  text-decoration: none;
+  color:white;
+  padding: 1rem;
+  display:block;
+}
+.wrapper{
+    width:100%;
+}
+.swag-button{
+  color: #241;
+  font-family: "proxima nova";
+  font-weight: 100px;
+  font-size: 40 px;
+
+  border: solid 2px #241e46;
+  border-radius: 50px;
+
+  padding: 10px 80px;
+
+}
+.swag-button:hover{
+  background-color: #241e46;
+  color: #FFF
+}
+.social-menu ul {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.swag-button1{
+  color: rgb(201, 204, 15);
+  font-family: "proxima nova";
+  font-weight: 100px;
+  font-size: 40 px;
+
+  border: solid 2px #3e94e6;
+  border-radius: 50px;
+
+  padding: 10px 80px;
+
+}
+.swag-button1:hover{
+  background-color: #11a9b4;
+  color: #FFF
+}
+.social-menu ul {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.social-menu ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+.social-menu ul li .fa {
+  color: #000000;
+  font-size: 25px;
+  line-height: 50px;
+  transition: .5s;
+}
+.social-menu ul li .fa:hover {
+  color: #ffffff;
+}
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  transition: 0.5s;
+  transform: translate(0,0px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+  background-color: #0077B5;
+}
